@@ -44,7 +44,7 @@ public class Circulo extends FormaGeometrica{
      */
     @Override
     public double area(){
-        //TODO
+        return 3.14 * Math.pow(raio, 2);
     }
 
     /**
@@ -53,7 +53,7 @@ public class Circulo extends FormaGeometrica{
      */
     @Override
     public double perimetro(){
-        //TODO
+        return 2 * 3.14 * raio;
     }
 
     /**
